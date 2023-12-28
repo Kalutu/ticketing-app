@@ -25,8 +25,8 @@ The Ticketing App is a web application built with Next.js, MongoDB, and Tailwind
 1. Clone the repository: ` git clone https://github.com/Kalutu/ticketing-app`
 2. Change into the project directory: `cd ticketing-app`
 3. Set up environment variables:
-   Create a .env file in the backend directory and add necessary configurations.
-   `MONGO_URI=your_mongodb_connection_string`
+   - Create a .env file in the backend directory and add necessary configurations.
+   - `MONGO_URI=your_mongodb_connection_string`
 4. Install dependencies: `npm install`
 5. Start the development server: `npm run dev`
    The app will be accessible at http://localhost:3000 by default.
