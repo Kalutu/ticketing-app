@@ -22,9 +22,6 @@ export async function PUT(req, { params }) {
     const updateTicketData = await Ticket.findByIdAndUpdate(id, {
       ...ticketData,
     });
-
-    console.log("PUT RAN");
-
     return NextResponse.json({ message: "Ticket updated" }, { status: 200 });
   } catch (error) {
     return NextResponse.json({ message: "Error", error }, { status: 500 });
